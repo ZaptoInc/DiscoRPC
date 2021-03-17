@@ -7,7 +7,7 @@ Imports Flurl.Http
 Public Class Form1
     Dim WithEvents client As DiscordRpcClient = Nothing
 
-    Public CurrentVer As VerConfig = New VerConfig(0, 3, 2)
+    Public CurrentVer As VerConfig = New VerConfig(0, 4, 0)
 
     Public config As New Config
 
