@@ -8,26 +8,26 @@
   "cfg.details.label": "Details:",
   "cfg.state.label": "Status:",
 
-  "cfg.largeimagekey.label": "Key f�r gro�es Bild:",
-  "cfg.largeimagetext.label": "Text f�r gro�es Bild:",
+  "cfg.largeimagekey.label": "Key für großes Bild:",
+  "cfg.largeimagetext.label": "Text für großes Bild:",
 
-  "cfg.smallimagekey.label": "Key f�r kleines Bild:",
-  "cfg.smallimagetext.label": "Text f�r kleines Bild:",
+  "cfg.smallimagekey.label": "Key für kleines Bild:",
+  "cfg.smallimagetext.label": "Text für kleines Bild:",
 
-  "cfg.buttonatext.label": "Text f�r Button A:",
-  "cfg.buttonaurl.label": "URL f�r Button A:",
+  "cfg.buttonatext.label": "Text für Button A:",
+  "cfg.buttonaurl.label": "URL für Button A:",
 
-  "cfg.buttonbtext.label": "Text f�r Button B:",
-  "cfg.buttonburl.label": "URL f�r Button B:",
+  "cfg.buttonbtext.label": "Text für Button B:",
+  "cfg.buttonburl.label": "URL für Button B:",
 
   "cfg.savebutton.label": "Speichern",
   "cfg.refreshbutton.label": "Aktualisieren",
 
-  "error.clientid": "Die Client ID �{{0}}� ist ung�ltig.",
+  "error.clientid": "Die Client ID «{{0}}» ist ungültig.",
 
-  "update.title": "Ein neues Update ist verf�gbar!",
-  "update.newversionavailable": "Die Version {{0}}.{{1}}.{{2}} ist nun verf�gbar",
-  "update.newversionavailable.none": "Eine neue Version ist verf�gbar",
+  "update.title": "Ein neues Update ist verfügbar!",
+  "update.newversionavailable": "Die Version {{0}}.{{1}}.{{2}} ist nun verfügbar",
+  "update.newversionavailable.none": "Eine neue Version ist verfügbar",
   "update.details.none":"Hierzu gibt es keine Infos...",
   "update.download": "Herunterladen",
   "update.ignoreuntilrestart":  "Bis zum neustart ignorieren"
