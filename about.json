@@ -1,7 +1,7 @@
 {
   "ver_": 0,
   "beta_": 3,
-  "alpha_": 1,
-  "url": "https://github.com/ZaptoInc/DiscoRPC/releases/tag/0.3.1",
-  "details": "Now with multi langs support!"
+  "alpha_": 2,
+  "url": "https://github.com/ZaptoInc/DiscoRPC/releases/tag/0.3.2",
+  "details": "Now in traditional Chinese (thanks alan67160) and in German (thanks Treppenhaus)\nFixed some bugs"
 }

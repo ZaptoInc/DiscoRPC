@@ -7,7 +7,7 @@ Imports Flurl.Http
 Public Class Form1
     Dim WithEvents client As DiscordRpcClient = Nothing
 
-    Public CurrentVer As VerConfig = New VerConfig(0, 3, 1)
+    Public CurrentVer As VerConfig = New VerConfig(0, 3, 2)
 
     Public config As New Config
 
@@ -136,12 +136,9 @@ Public Class Form1
         config.rpc.SmallImageKey = CFG_SmallImageKey_TextBox.Text
         config.rpc.SmallImageText = CFG_SmallImageText_TextBox.Text
 
-        If Not String.IsNullOrWhiteSpace(CFG_ButtonAText_TextBox.Text) And Not String.IsNullOrWhiteSpace(CFG_ButtonAURL_TextBox.Text) Then
-            config.rpc.Button_A = New RPC_Config_Button(CFG_ButtonAText_TextBox.Text, CFG_ButtonAURL_TextBox.Text)
-        End If
-        If Not String.IsNullOrWhiteSpace(CFG_ButtonBText_TextBox.Text) And Not String.IsNullOrWhiteSpace(CFG_ButtonBURL_TextBox.Text) Then
-            config.rpc.Button_B = New RPC_Config_Button(CFG_ButtonBText_TextBox.Text, CFG_ButtonBURL_TextBox.Text)
-        End If
+        config.rpc.Button_A = New RPC_Config_Button(CFG_ButtonAText_TextBox.Text, CFG_ButtonAURL_TextBox.Text)
+
+        config.rpc.Button_B = New RPC_Config_Button(CFG_ButtonBText_TextBox.Text, CFG_ButtonBURL_TextBox.Text)
         File.WriteAllText("config.json", JsonConvert.SerializeObject(config, Formatting.Indented))
     End Sub
 

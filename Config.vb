@@ -50,20 +50,28 @@ Public Class RPC_Config
 
         Dim buttons As New List(Of Button)
         If Button_A IsNot Nothing Then
-            Dim button_temp As New Button
-            If Uri.IsWellFormedUriString(Button_A.Url, UriKind.Absolute) Then
+            Try
+                Dim button_temp As New Button
+                If Not Uri.IsWellFormedUriString(Button_A.Url, UriKind.Absolute) Then Throw New Exception("not url")
                 button_temp.Url = Button_A.Url
-            End If
-            button_temp.Label = Button_A.Label
-            buttons.Add(button_temp)
+                If String.IsNullOrWhiteSpace(Button_A.Label) Then Throw New Exception("not text")
+                button_temp.Label = Button_A.Label
+                buttons.Add(button_temp)
+            Catch
+            End Try
+
         End If
         If Button_B IsNot Nothing Then
-            Dim button_temp As New Button
-            If Uri.IsWellFormedUriString(Button_B.Url, UriKind.Absolute) Then
+            Try
+                Dim button_temp As New Button
+                If Not Uri.IsWellFormedUriString(Button_B.Url, UriKind.Absolute) Then Throw New Exception("not url")
                 button_temp.Url = Button_B.Url
-            End If
-            button_temp.Label = Button_B.Label
-            buttons.Add(button_temp)
+                If String.IsNullOrWhiteSpace(Button_B.Label) Then Throw New Exception("not text")
+                button_temp.Label = Button_B.Label
+                buttons.Add(button_temp)
+            Catch ex As Exception
+            End Try
+
         End If
         pre.Buttons = buttons.ToArray
         pre.Details = Me.Details
@@ -86,9 +94,7 @@ Public Class RPC_Config_Button
             Me.Label = Nothing
         End If
         If Not String.IsNullOrWhiteSpace(Url) Then
-            If Uri.IsWellFormedUriString(Url, UriKind.Absolute) Then
-                Me.Url = Url
-            End If
+            Me.Url = Url
         Else
             Me.Url = Nothing
         End If
