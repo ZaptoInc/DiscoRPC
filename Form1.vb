@@ -7,7 +7,7 @@ Imports Flurl.Http
 Public Class Form1
     Dim WithEvents client As DiscordRpcClient = Nothing
 
-    Public CurrentVer As VerConfig = New VerConfig(0, 4, 0)
+    Public CurrentVer As VerConfig = New VerConfig(0, 5, 0)
 
     Public config As New Config
 
@@ -144,7 +144,7 @@ Public Class Form1
 
     Async Function GetUpdateFileAsync() As Task(Of VerConfig)
         Try
-            Dim r = Await "https://github.com/ZaptoInc/DiscoRPC/blob/main/about.json".GetJsonAsync(Of VerConfig)
+            Dim r = Await "https://raw.githubusercontent.com/ZaptoInc/DiscoRPC/main/about.json".GetJsonAsync(Of VerConfig)
             Return r
         Catch ex As Exception
             Return Nothing

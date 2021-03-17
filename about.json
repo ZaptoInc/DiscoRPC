@@ -1,7 +1,7 @@
 {
   "ver_": 0,
-  "beta_": 4,
+  "beta_": 5,
   "alpha_": 0,
-  "url": "https://github.com/ZaptoInc/DiscoRPC/releases/tag/0.4.0",
-  "details": "Now in traditional Chinese (thanks alan67160) and in German (thanks Treppenhaus)\nFixed some bugs"
+  "url": "https://github.com/ZaptoInc/DiscoRPC/releases/tag/0.5.0",
+  "details": "Fixed major issue with update alerter"
 }
