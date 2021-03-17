@@ -1,0 +1,34 @@
+{
+  "langcode": "zh_tw",
+  "lang.label": "語言:",
+  "lang.name": "繁體中文",
+
+  "cfg.clientid.label": "Discord應用客戶編號:",
+
+  "cfg.details.label": "第一行:",
+  "cfg.state.label": "第二行:",
+
+  "cfg.largeimagekey.label": "(大)圖片:",
+  "cfg.largeimagetext.label": "(大)圖片文字:",
+
+  "cfg.smallimagekey.label": "(小)圖片:",
+  "cfg.smallimagetext.label": "(小)圖片文字:",
+
+  "cfg.buttonatext.label": "第一個按鈕的名字:",
+  "cfg.buttonaurl.label": "第一個按鈕的連結:",
+
+  "cfg.buttonbtext.label": "第二個按鈕的名字:",
+  "cfg.buttonburl.label": "第二個按鈕的連結:",
+
+  "cfg.savebutton.label": "儲存",
+  "cfg.refreshbutton.label": "重新整理",
+
+  "error.clientid": "Discord應用客戶編號 «{{0}}» 不正確。",
+
+  "update.title": "更新通知",
+  "update.newversionavailable": "最新版本為 {{0}}.{{1}}.{{2}}",
+  "update.newversionavailable.none": "有一個新的版本可以下載。",
+  "update.details.none": "這個更新沒有說明...",
+  "update.download": "下載",
+  "update.ignoreuntilrestart": "直到下次重啟不要再提醒"
+}
