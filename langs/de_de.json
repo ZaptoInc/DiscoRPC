@@ -1,0 +1,34 @@
+{
+  "langcode": "de",
+  "lang.label": "Sprache:",
+  "lang.name": "Deutsch",
+
+  "cfg.clientid.label": "Client ID:",
+
+  "cfg.details.label": "Details:",
+  "cfg.state.label": "Status:",
+
+  "cfg.largeimagekey.label": "Key f�r gro�es Bild:",
+  "cfg.largeimagetext.label": "Text f�r gro�es Bild:",
+
+  "cfg.smallimagekey.label": "Key f�r kleines Bild:",
+  "cfg.smallimagetext.label": "Text f�r kleines Bild:",
+
+  "cfg.buttonatext.label": "Text f�r Button A:",
+  "cfg.buttonaurl.label": "URL f�r Button A:",
+
+  "cfg.buttonbtext.label": "Text f�r Button B:",
+  "cfg.buttonburl.label": "URL f�r Button B:",
+
+  "cfg.savebutton.label": "Speichern",
+  "cfg.refreshbutton.label": "Aktualisieren",
+
+  "error.clientid": "Die Client ID �{{0}}� ist ung�ltig.",
+
+  "update.title": "Ein neues Update ist verf�gbar!",
+  "update.newversionavailable": "Die Version {{0}}.{{1}}.{{2}} ist nun verf�gbar",
+  "update.newversionavailable.none": "Eine neue Version ist verf�gbar",
+  "update.details.none":"Hierzu gibt es keine Infos...",
+  "update.download": "Herunterladen",
+  "update.ignoreuntilrestart":  "Bis zum neustart ignorieren"
+}
