@@ -16,3 +16,7 @@ Example of how it looks:
 * English
 
 * Français
+
+* Deutsch
+
+* 繁體中文
